@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: qcPuateyuC8an9hrTlAuHUlClcDEgOerkFxJP710pAa/KsLfBwtagslhRwMqnUyAtvwfwVVHxGvNt5akpmxQY3Dd9K8VVxbep0a2oo3KDf8TWpcciuqvyC1QsOD6o0x/I105odxlEjUlRyetIdNf4i17HbX5WthiMZYNQ1o0FBAqUMNmIaeGSYD0D9KjYWhCuejnS8ttj9z/tkpA1bwJ8IfJ5/ilKfBUWbV/+h2maWVPYlaQyYgpThwT1kQyaS/l5tyMXrFazRTNkCuqvey0p0hXLl+zzyBQqaW4I9GbI3OWQ8vG8tbI6SMHMWBAP4igYyzsvKhUjhO/DMZroHEiuvwrmH0BV4l5tj3sajkQug7/YWSIaWqO5UcNQRO4bueHJhOEuAZsGxnldTKvqeBBMkgwwS75AGDjrd7b/ouQaeAT2tDOfE4aqev5nPt6qTbt0LgvdYXdmE2jMxBzxdD1sXgNAQivtl1X5ZlvxEcCxygsp4+v0R1LPpGwZbBcBEG7lJK9dW/6EgbxstsD0sc1dzaxgd0qwT6DZYOPHA5qPgb+6joiv7o7YxFSwkxF700aVWqetYEEVtrJPB5fC4rw1aZvBxi/jzLGmGGIDbj+JKT3MsGSz2NVbTLOByIDsTRuyLzP87TrSYr8/+jDA8AxsaIfdFf3HuULh2FsyJAYQT4=
-  app: sheltered-caverns-12133.herokuapp.com/
+  app: https://sheltered-caverns-12133.herokuapp.com
   on:
     repo: adrianasu/node-shopping-list-integration-tests
