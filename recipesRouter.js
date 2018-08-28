@@ -70,12 +70,12 @@ router.put("/:id", (req, res) => {
     return res.status(400).send(message);
   }
   console.log(`Updating recipe \`${req.params.id}\``);
-  Recipes.update({
+  const post = Recipes.update({
     id: req.params.id,
     name: req.body.name,
     ingredients: req.body.ingredients
   });
-  res.status(204).end();
+  res.status(201).send(post);
 });
 
 module.exports = router;
